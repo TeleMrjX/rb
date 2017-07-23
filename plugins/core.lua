@@ -670,7 +670,7 @@ local lang = redis:get(hash)
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
     elseif not data[tostring(matches[2])] then
      if not lang then
@@ -711,7 +711,7 @@ end
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
     redis:set(hash, true)
@@ -724,7 +724,7 @@ end
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 	options(msg, matches[2])
@@ -735,7 +735,7 @@ if matches[1] == '/settings' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		setting(msg, data, matches[2])
@@ -746,7 +746,7 @@ if matches[1] == '/mutelist' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		mutelists(msg, data, matches[2])
@@ -757,7 +757,7 @@ if matches[1] == '/moresettings' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		moresetting(msg, data, matches[2])
@@ -770,7 +770,7 @@ if matches[1] == '/locklink' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local locklink = data[tostring(matches[2])]["settings"]["lock_link"]
@@ -800,7 +800,7 @@ if matches[1] == '/lockedit' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local lockedit = data[tostring(matches[2])]["settings"]["lock_edit"]
@@ -830,7 +830,7 @@ if matches[1] == '/locktags' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_tag"]
@@ -860,7 +860,7 @@ if matches[1] == '/lockjoin' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_join"]
@@ -890,7 +890,7 @@ if matches[1] == '/lockflood' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["flood"]
@@ -920,7 +920,7 @@ if matches[1] == '/lockspam' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_spam"]
@@ -950,7 +950,7 @@ if matches[1] == '/lockmention' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_mention"]
@@ -980,7 +980,7 @@ if matches[1] == '/lockarabic' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_arabic"]
@@ -1010,7 +1010,7 @@ if matches[1] == '/lockwebpage' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_webpage"]
@@ -1040,7 +1040,7 @@ if matches[1] == '/lockmarkdown' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_markdown"]
@@ -1070,7 +1070,7 @@ if matches[1] == '/lockpin' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_pin"]
@@ -1100,7 +1100,7 @@ if matches[1] == '/lockbots' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["lock_bots"]
@@ -1130,7 +1130,7 @@ if matches[1] == '/welcome' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chklock = data[tostring(matches[2])]["settings"]["welcome"]
@@ -1160,7 +1160,7 @@ if matches[1] == '/floodup' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local flood_max = 5
@@ -1188,7 +1188,7 @@ if matches[1] == '/flooddown' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local flood_max = 5
@@ -1216,7 +1216,7 @@ if matches[1] == '/charup' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local char_max = 5
@@ -1244,7 +1244,7 @@ if matches[1] == '/chardown' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local char_max = 5
@@ -1272,7 +1272,7 @@ if matches[1] == '/floodtimeup' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local check_time = 5
@@ -1300,7 +1300,7 @@ if matches[1] == '/floodtimedown' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local check_time = 5
@@ -1331,7 +1331,7 @@ if matches[1] == '/muteall' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_all"]
@@ -1361,7 +1361,7 @@ if matches[1] == '/mutegif' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_gif"]
@@ -1391,7 +1391,7 @@ if matches[1] == '/mutetext' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_text"]
@@ -1421,7 +1421,7 @@ if matches[1] == '/muteinline' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_inline"]
@@ -1451,7 +1451,7 @@ if matches[1] == '/mutegame' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_game"]
@@ -1481,7 +1481,7 @@ if matches[1] == '/mutephoto' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_photo"]
@@ -1511,7 +1511,7 @@ if matches[1] == '/mutevideo' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_video"]
@@ -1541,7 +1541,7 @@ if matches[1] == '/muteaudio' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_audio"]
@@ -1571,7 +1571,7 @@ if matches[1] == '/mutevoice' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_voice"]
@@ -1601,7 +1601,7 @@ if matches[1] == '/mutesticker' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_sticker"]
@@ -1631,7 +1631,7 @@ if matches[1] == '/mutecontact' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_contact"]
@@ -1661,7 +1661,7 @@ if matches[1] == '/muteforward' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_forward"]
@@ -1691,7 +1691,7 @@ if matches[1] == '/mutelocation' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_location"]
@@ -1721,7 +1721,7 @@ if matches[1] == '/mutedocument' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_document"]
@@ -1751,7 +1751,7 @@ if matches[1] == '/mutetgservice' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_tgservice"]
@@ -1781,7 +1781,7 @@ if matches[1] == '/mutekeyboard' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local chkmute = data[tostring(matches[2])]["mutes"]["mute_keyboard"]
@@ -1814,7 +1814,7 @@ if matches[1] == '/more' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
     if not lang then
@@ -1880,7 +1880,7 @@ if matches[1] == '/ownerlist' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local i = 1
@@ -1931,7 +1931,7 @@ if matches[1] == '/cleanowners' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Bot Admin")
    elseif lang then
-		get_alert(msg.cb_id, "شما ادمین ربات نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['owners']) == nil then
@@ -1975,7 +1975,7 @@ if matches[1] == '/filterlist' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['filterlist']) == nil then --fix way
@@ -2026,7 +2026,7 @@ if matches[1] == '/cleanfilterlist' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['filterlist']) == nil then
@@ -2070,7 +2070,7 @@ if matches[1] == '/modlist' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local i = 1
@@ -2121,7 +2121,7 @@ if matches[1] == '/cleanmods' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Group Owner")
    elseif lang then
-		get_alert(msg.cb_id, "شما صاحب گروه نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['mods']) == nil then
@@ -2155,7 +2155,7 @@ if matches[1] == '/bans' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local i = 1
@@ -2205,7 +2205,7 @@ if matches[1] == '/silentlist' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local i = 1
@@ -2255,7 +2255,7 @@ if matches[1] == '/cleansilentlist' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['is_silent_users']) == nil then
@@ -2298,7 +2298,7 @@ if matches[1] == '/cleanbans' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['banned']) == nil then
@@ -2341,7 +2341,7 @@ if matches[1] == '/link' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local linkgp = data[tostring(matches[2])]['settings']['linkgp']
@@ -2382,7 +2382,7 @@ if matches[1] == '/rules' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local rules = data[tostring(matches[2])]['rules']
@@ -2470,7 +2470,7 @@ end
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['whitelist']) == nil then
@@ -2520,7 +2520,7 @@ if matches[1] == '/cleanwhitelists' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		if next(data[tostring(matches[2])]['whitelist']) == nil then
@@ -2565,7 +2565,7 @@ if not is_mod1(matches[2], msg.from.id) then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 		local wlc = data[tostring(matches[2])]['setwelcome']
@@ -2611,7 +2611,7 @@ if not is_mod1(matches[2], msg.from.id) then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
 local wlc = data[tostring(matches[2])]['setwelcome']
@@ -2754,7 +2754,7 @@ if matches[1] == '/exit' then
      if not lang then
 		get_alert(msg.cb_id, "You Are Not Moderator")
    elseif lang then
-		get_alert(msg.cb_id, "شما مدیر نیستید")
+		get_alert(msg.cb_id, "✯حاجی مُدیر ربات نیستے😐\n✯دست نزن جیزه😂\n✯کانال ما:\n@LockerTeam")
    end
 	else
     if not lang then

@@ -1,4 +1,4 @@
-# [BDHelper](https://t.me/BDHelperBot)
+# [LockerTeam](https://t.me/LockerTeam)
 
 [![Bot API](http://img.shields.io/badge/Bot%20API-v3.0.0-00aced.svg)](https://core.telegram.org/bots/api)
 [![https://t.me/BeyondTeam](https://img.shields.io/badge/💬%20Telegram-BeyondTeam-00aced.svg)](https://t.me/BeyondTeam)
@@ -19,15 +19,15 @@ An Helper Bot For BDReborn Based On BDMessenger
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/BeyondTeam/BDHelper.git
-cd BDHelper
+git clone https://github.com/BeyondTeam/FHelper.git
+cd FHelper
 chmod +x beyond.sh
 ./beyond.sh install
 ./beyond.sh 
 
 
 # For Auto Launch:
-cd BDHelper
+cd FHelper
 chmod 777 autobd.sh
 tmux
 ./autobd.sh
@@ -36,7 +36,7 @@ tmux
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/BeyondTeam/BDHelper.git && cd BDHelper && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
+cd $HOME && git clone https://github.com/BeyondTeam/FHelper.git && cd FHelper && chmod +x beyond.sh && ./beyond.sh install && ./beyond.sh
 ```
 
 # Support and Development
@@ -51,10 +51,10 @@ More information [Beyond Global Chat](https://telegram.me/joinchat/AAAAAEIDQ8HT
 
 # Developers!
 
-[SoLiD](https://github.com/solid021) ([Telegram](https://t.me/SoLiD))
+[Mohammad](https://github.com/......) ([Telegram](https://t.me/SudoLocker))
 
-[ToOfan](https://github.com/To0fan) ([Telegram](https://t.me/ToOfan))
+[ToOfan](https://github.com/.....) ([Telegram](https://t.me/ToOfan))
 
 ### Our Telegram channel:
 
-[@BeyondTeam](https://t.me/BeyondTeam)
+[@LoxkerTeam](https://t.me/LockerTeam)
